@@ -18,7 +18,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/30 via-purple-500/30 to-pink-500/30 rounded-2xl blur-xl"></div>
               <img
-                src="/public/profile.png"
+                src="profile.png"
                 alt="Yagshygeldi Ashyrov"
                 className="relative w-64 h-80 md:w-80 md:h-96 rounded-2xl object-cover border-4 border-gray-800 shadow-2xl hover:scale-105 transition-transform duration-300"
                 onError={(e) => {

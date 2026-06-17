@@ -33,7 +33,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-xl opacity-50 animate-pulse"></div>
               <img
-                src="/profile.jpg"
+                src="profile.jpg"
                 alt="Yagshygeldi Ashyrov"
                 className="relative w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-gray-800 shadow-2xl hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
