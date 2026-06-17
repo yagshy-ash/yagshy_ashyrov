@@ -10,12 +10,12 @@ const Education = () => {
       color: 'blue',
     },
     {
-      degree: "Bachelor's in Science",
+      degree: "Bachelor's in Innovation Science",
       university: 'Oguz Khan Engineering and Technologies University of Turkmenistan',
       location: 'Ashgabat, Turkmenistan',
       period: '2016 – 2021',
-      level: 'EQF level 8',
-      website: 'https://www.iau-hesd.net/university/oguz-han-engineering-and-technology-university-turkmenistan',
+      level: 'EQF level 9',
+      website: 'https://etut.edu.tm/',
       color: 'purple',
     },
   ]
