@@ -53,13 +53,13 @@ function App() {
     {
       id: 'instagram',
       href: 'https://www.instagram.com/yagshy_ashyrov',
-      src: 'instagram-1-svgrepo-com.svg',
+      src: `${import.meta.env.BASE_URL}instagram-1-svgrepo-com.svg`,
       label: 'yagshy_ashyrov',
     },
     {
       id: 'linkedin',
       href: 'https://www.linkedin.com/in/yagshy-ashyrov-a39b92213/',
-      src: 'linkedin-svgrepo-com.svg',
+      src: `${import.meta.env.BASE_URL}linkedin-svgrepo-com.svg`,
       label: 'Yagshy Ashyrov',
     },
     {
