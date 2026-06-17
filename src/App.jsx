@@ -53,19 +53,19 @@ function App() {
     {
       id: 'instagram',
       href: 'https://www.instagram.com/yagshy_ashyrov',
-      src: 'yagshy_ashyrov/instagram-1-svgrepo-com.svg',
+      src: '/instagram-1-svgrepo-com.svg',
       label: 'yagshy_ashyrov',
     },
     {
       id: 'linkedin',
       href: 'https://www.linkedin.com/in/yagshy-ashyrov-a39b92213/',
-      src: 'yagshy_ashyrov/linkedin-svgrepo-com.svg',
+      src: '/linkedin-svgrepo-com.svg',
       label: 'Yagshy Ashyrov',
     },
     {
       id: 'github',
       href: 'https://github.com/yagshy-ash',
-      src: 'yagshy_ashyrov/github-svgrepo-com.svg',
+      src: '/github-svgrepo-com.svg',
       label: 'yagshy-ash',
     },
   ]

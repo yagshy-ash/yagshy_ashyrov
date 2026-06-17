@@ -51,7 +51,7 @@ const Navbar = ({ activeSection }) => {
                   animationDuration: '5s',
                   filter: 'drop-shadow(0 0 10px rgba(255,255,255,0.35))',
                 }}
-                src="yagshy_ashyrov/white_logo.png"
+                src="/white_logo.png"
                 alt="logo"
               />
             </button>
