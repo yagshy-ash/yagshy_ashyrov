@@ -32,14 +32,14 @@ const Hero = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full blur-xl opacity-50 animate-pulse"></div>
-              <img
-                src={`${import.meta.env.BASE_URL}profile.jpg`}
+              {/* <img
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Yagshygeldi Ashyrov"
                 className="relative w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-gray-800 shadow-2xl hover:scale-105 transition-transform duration-300"
                 onError={(e) => {
                   e.target.style.display = 'none'
                 }}
-              />
+              /> */}
             </div>
           </div>
 
@@ -49,9 +49,10 @@ const Hero = () => {
             </span>
           </div>
 
-          <h1 className="h-[80px] text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h1 className="h-[80px] text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Yagshygeldi Ashyrov
           </h1>
+          <span className="text-blue-80 mb-6 block">yagshy_ashyrov</span>
 
           <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto">
             Experienced Full Stack Developer with over 4 years of expertise in
